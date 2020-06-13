@@ -11,6 +11,8 @@ import org.testng.annotations.BeforeSuite;
 import java.lang.reflect.Method;
 
 public class Abstract_Class {
+
+    ////new changes
 ///new commit
     ///abc
     //You need set the global variables as public static in order
