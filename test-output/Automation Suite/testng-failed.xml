@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome Automation Test(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="Day_15_06062020.Kayak_Data_Driven_TestNG_crossbrowser">
+        <methods>
+          <include name="getMethodName"/>
+          <include name="closeInfo"/>
+          <include name="kayakSearch"/>
+          <include name="defineDriver"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- Day_15_06062020.Kayak_Data_Driven_TestNG_crossbrowser -->
+    </classes>
+  </test> <!-- Chrome Automation Test(failed) -->
+  <test thread-count="5" name="Firefox Automation Test(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="Day_15_06062020.Kayak_Data_Driven_TestNG_crossbrowser">
+        <methods>
+          <include name="getMethodName"/>
+          <include name="closeInfo"/>
+          <include name="kayakSearch"/>
+          <include name="defineDriver"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- Day_15_06062020.Kayak_Data_Driven_TestNG_crossbrowser -->
+    </classes>
+  </test> <!-- Firefox Automation Test(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->

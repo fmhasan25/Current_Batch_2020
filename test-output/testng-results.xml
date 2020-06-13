@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-10T15:50:09 EDT" name="Default Suite" finished-at="2020-06-10T15:50:16 EDT" duration-ms="6662">
+    <groups>
+    </groups>
+    <test started-at="2020-06-10T15:50:09 EDT" name="Maven_automation" finished-at="2020-06-10T15:50:16 EDT" duration-ms="6662">
+      <class name="Action_items.Abstract.Washington_Abstract">
+        <test-method is-config="true" signature="defineDriver()[pri:0, instance:Action_items.Abstract.Washington_Abstract@401e7803]" started-at="2020-06-10T15:50:07 EDT" name="defineDriver" finished-at="2020-06-10T15:50:09 EDT" duration-ms="2539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineDriver -->
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:Action_items.Abstract.Washington_Abstract@401e7803]" started-at="2020-06-10T15:50:09 EDT" name="getMethodName" finished-at="2020-06-10T15:50:09 EDT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Action_items.Abstract.Washington_Abstract.washington()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method signature="washington()[pri:0, instance:Action_items.Abstract.Washington_Abstract@401e7803]" started-at="2020-06-10T15:50:09 EDT" name="washington" finished-at="2020-06-10T15:50:16 EDT" duration-ms="6628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- washington -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Action_items.Abstract.Washington_Abstract@401e7803]" started-at="2020-06-10T15:50:16 EDT" name="endTest" finished-at="2020-06-10T15:50:16 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="closeInfo()[pri:0, instance:Action_items.Abstract.Washington_Abstract@401e7803]" started-at="2020-06-10T15:50:16 EDT" name="closeInfo" finished-at="2020-06-10T15:50:16 EDT" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeInfo -->
+      </class> <!-- Action_items.Abstract.Washington_Abstract -->
+    </test> <!-- Maven_automation -->
+  </suite> <!-- Default Suite -->
+</testng-results>
